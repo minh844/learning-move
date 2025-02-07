@@ -1,0 +1,11 @@
+[package]
+name = 'fan'
+version = '1.0.0'
+
+[addresses]
+admin = "fe634c330d389f6445c1cbfefc272e5820c68d232e436b07f10dc2bc01723f47"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
